@@ -1,4 +1,4 @@
-A configurable rate limiter for WebSocket connections written in plain JavaScript.
+A configurable server-side rate limiter for WebSocket connections written in plain JavaScript.
 
 This rate limiter can be used to limit the number of requests from a given IP address _per second_.
 
