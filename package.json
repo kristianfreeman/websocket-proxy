@@ -1,0 +1,17 @@
+{
+  "name": "websocket-proxy",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ip": "^2.0.1",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "wscat": "^5.2.0"
+  }
+}
