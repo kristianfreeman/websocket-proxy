@@ -1,0 +1,18 @@
+# Install in a systemd directory, such as
+# /lib/systemd/system/websocket-proxy.service
+
+[Unit]
+Description=WebSocket Proxy Service
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/etc/websocket-proxy
+# Change this to suit your NPM setup
+# e.g. replace with the output of 
+# `which npm`
+ExecStart=/root/.volta/bin/npm start
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

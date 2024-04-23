@@ -8,6 +8,8 @@ This rate limiter can be used to limit the number of requests from a given IP ad
 2. `cp env.example .env` and configure as needed
 3. `npm start`
 
+[`websocket-proxy.service`](https://github.com/kristianfreeman/websocket-proxy/blob/main/websocket-proxy.service) has been provided as example of how to run the service in `systemd`.
+
 ## Configuration
 
 An example configuration is seen below:
